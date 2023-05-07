@@ -4,9 +4,20 @@
     <meta charset="utf-8">
     <title>サイトタイトル</title>
     <link rel="stylesheet" href="https://ym122.github.io/test20230507/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jsqr@latest/dist/jsQR.min.js"></script>
 </head>
 <body>
-    <h1>記事のタイトル</h1>
-    <p>文章をここに書きます</p>
+    <div class="heading-034"><span>【入退室】QRコード読み取り</span></div>
+
+<div id="loadingMessage">&#x1f3a5; ↓タップで読み取りカメラが起動します</div>
+<div id="canvas_wrapper">
+<canvas id="canvas" hidden width="640" height="480"></canvas>
+</div>
+
+<div id="frame_area"></div>
+
+<div id="button_wrapper">
+<button id="qrON" class="customButton">QRコードを読む</button>
+</div>
 </body>
 </html>
