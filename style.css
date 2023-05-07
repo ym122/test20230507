@@ -1,0 +1,82 @@
+@charset “UTF-8”;
+
+.customButton {
+  border-radius: 0.2rem;
+  padding: 0.5em 0.0em;
+  float: left;
+  width: 99%;
+  border-radius: 0.2rem;
+    font-size: 1.0em;
+    background-color: #5C87A6;
+    color: #fff;
+    border: solid 1px #5C87A6;
+  display: inline-block;
+  line-height: 1.4;
+}
+.customButton:hover {
+  background: #fff;
+  border-radius: 0.2rem;
+  border: solid 1px #5C87A6;
+  color: #5C87A6;
+  transition: .4s;
+}
+
+h1{
+display:none;
+}
+
+.heading-034 {
+    position: relative;
+    margin: 0 0 25px 9px;
+    padding: .5em .8em;
+    background-color: #5C87A6;
+    color: #FDE8BF;
+    font-weight: bold;
+}
+
+.heading-034::before {
+    position: absolute;
+    top: 0;
+    left: -9px;
+    z-index: 1;
+    width: 5px;
+    height: 135%;
+    border-radius: 3px;
+    background-color: #600;
+    content: '';
+}
+
+.heading-034 span::before,
+.heading-034 span::after {
+    position: absolute;
+    left: -9px;
+    width: 20px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #c99;
+    content: '';
+}
+
+.heading-034 span::before {
+    top: 44%;
+    transform: rotate(-25deg);
+}
+
+.heading-034 span::after {
+    top: 54%;
+    transform: rotate(25deg);
+}
+
+/*タイトル上のカテゴリーを消す*/
+.cps-post .cps-post-header .cps-post-cat{
+	display: none;
+}
+
+#canvas_wrapper{
+width:640px;
+	margin:0 auto;
+}
+
+iframe {
+ border: none;
+}
